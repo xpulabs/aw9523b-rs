@@ -1,0 +1,26 @@
+[package]
+name = "aw9523b"
+version = "0.1.0"
+edition = "2021"
+description = "A general driver for AW9523B which is 16 bit gpio explander & led driver"
+license = "MIT OR Apache-2.0"
+authors = ["XPU Labs <xpulabs@gmail.com>"]
+repository = "https://github.com/xpulabs/aw9523b-rs"
+readme = "README.md"
+categories = ["embedded", "hardware-support", "no-std"]
+homepage = "https://github.com/xpulabs/aw9523b-rs"
+documentation = "https://docs.rs/aw9523b"
+include = [
+    "/**/*.rs",
+    "/Cargo.toml",
+    "/README.md",
+    "/CHANGELOG.md",
+    "/LICENSE-MIT",
+    "/LICENSE-APACHE",
+]
+
+[dependencies]
+embedded-hal = "1.0.0"
+
+[dev-dependencies]
+linux-embedded-hal = "0.4"
