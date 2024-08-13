@@ -1,10 +1,7 @@
 # Rust AW9523B - 16 bit GPIO Explander & LED Driver's Driver
 
-[![crates.io](https://img.shields.io/crates/v/max170xx.svg)](https://crates.io/crates/aw9523b)
-[![Docs](https://docs.rs/max170xx/badge.svg)](https://docs.rs/max170xx)
-[![Build Status](https://github.com/eldruin/max170xx-rs/workflows/Build/badge.svg)](https://github.com/eldruin/max170xx-rs/actions?query=workflow%3ABuild)
-[![Coverage Status](https://coveralls.io/repos/github/eldruin/max170xx-rs/badge.svg?branch=master)](https://coveralls.io/github/eldruin/max170xx-rs?branch=master)
-![Minimum Supported Rust Version](https://img.shields.io/badge/rustc-1.62+-blue.svg)
+[crates.io](https://crates.io/crates/aw9523b)
+[Docs](https://docs.rs/aw9523b)
 
 This is a platform agnostic Rust driver for the aw9523b in handheld
 and portable equipment using the [`embedded-hal`] traits.
